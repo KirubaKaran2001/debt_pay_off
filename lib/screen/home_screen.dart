@@ -19,7 +19,6 @@ class _HomeScreenState extends State<HomeScreen> {
     debugPrint('${MediaQuery.of(context).size.width}');
     return SafeArea(
       child: Scaffold(
-        extendBody: true,
         body: SingleChildScrollView(
           child: Padding(
             padding: const EdgeInsets.all(10.0),
